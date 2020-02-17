@@ -53,12 +53,12 @@ body {
   width: 250px;
   border-radius:50%;
 }
-@media only screen and (max-width: 580px)  {
+@media only screen and (max-width: 600px)  {
   .all{
     margin-top:15vh!important;
     display:grid;
     grid-template-columns: 90vw;
-    grid-auto-rows:40vh;
+    grid-auto-rows:50vh;
   }
 }
 
@@ -67,6 +67,6 @@ body {
     margin-top:15vh!important;
     display:grid;
     grid-template-columns: 90vw;
-    grid-auto-rows:40vh;
+    grid-auto-rows:50vh;
   }
 }
