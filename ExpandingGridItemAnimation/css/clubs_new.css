@@ -53,12 +53,23 @@ body {
   width: 250px;
   border-radius:50%;
 }
+.card img{
+  box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.5);
+}
 @media only screen and (max-width: 600px)  {
   .all{
     margin-top:15vh!important;
     display:grid;
     grid-template-columns: 90vw;
-    grid-auto-rows:50vh;
+    grid-auto-rows:40vh;
+  }
+  .card img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+  }
+  .card img{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
   }
 }
 
@@ -67,6 +78,14 @@ body {
     margin-top:15vh!important;
     display:grid;
     grid-template-columns: 90vw;
-    grid-auto-rows:50vh;
+    grid-auto-rows:40vh;
+  }
+  .card img{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
+  }
+  .card img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
   }
 }
