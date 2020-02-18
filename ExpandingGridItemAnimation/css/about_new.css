@@ -37,27 +37,109 @@ body{
 
   
   /*Navbar Styles End*/
-
+  .bannerTop span{
+    position: relative;
+    color:white;
+    left:28%;
+    font-size:1.75em;
+    font-weight:600;
+    text-decoration: overline;
+  }
+  .bannerTop p{
+    font-weight: 400;
+    color:white;
+    font-size:0.9em;
+    padding-top:30px;
+  }
   .bannerTop{
+    padding:150px;
+    display:grid;
+    grid-gap:50px;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-auto-rows:60vh;
     margin-top:7vh;
-    height:70vh;
+    height:200vh;
     width:100vw;
-    z-index: -20;
+    background-image: url("bgNit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    }
-   .bannerTop img{
-       
-       filter: blur(50%);
-       filter: brightness(30%);
-       height:70vh;
-       width:100vw;
+   .intro{
+     margin-top:20vh;
+     margin-bottom:10vh;
+     height:50vh;
+     padding:20px;
+     padding-top:40px;
+     border:double 3px white;
    }
-   .titleMain{
-       margin-top:-10vh;
-       z-index:1000;
+   
+   .intro:hover{
+     background:rgba(255,255,255,0.6);
+     border:double 5px black;
+     -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.7s ease;
    }
-   .titleMain span{
-       font-size: 4em;
-       color:white;
-       left:40%;
-       top:30%;
+   .intro:hover span{
+     color:black;
    }
+   .intro:hover p{
+    color:black;
+  }
+
+  @media only screen and (max-width: 600px)  {
+    .bannerTop{
+      padding:50px;
+      margin-top:7vh;
+      display:grid;
+      grid-gap:10px;
+      grid-template-columns: 1fr;
+      grid-auto-rows:50vh;
+      height:340vh;
+      width:100vw;
+      background:black;
+      
+     } 
+     .bannerTop span{
+      position: relative;
+      color:white;
+      font-size:2em;
+      left:32%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight:600;
+      text-decoration: overline;
+    }
+    .bannerTop p{
+      text-align: center;
+      font-weight: 400;
+      color:white;
+      font-size:0.9em;
+      padding-top:15px;
+    }
+    .intro{
+      height:40vh;
+      padding:10px;
+      padding-top:30px;
+      border:double 3px white;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .bannerTop span{
+      font-size:1.8em;
+      left:28%;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .bannerTop span{
+      font-size:1.6em;
+      left:28%;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .bannerTop span{
+      font-size:1.8em;
+      left:23%;
+    }
+  }

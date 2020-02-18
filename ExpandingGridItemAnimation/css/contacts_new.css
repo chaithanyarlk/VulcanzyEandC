@@ -1,0 +1,239 @@
+body{
+    margin:0;
+    padding:0;
+    background: black;
+    overflow-x:hidden;
+}
+
+/*Navbar Styles Start*/
+
+.bg-dark {
+    background-color: #5f004c!important;
+    padding-left: -36px;
+    padding-right: -18px;
+  }
+  
+  .navbar-dark .navbar-brand {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 20px;
+    filter: brightness(114%);
+    margin-right: 3px;
+  }
+  
+  .navbar-extra {
+    margin-right:20px;
+    font-weight: 500;
+    border-right: 1px solid white;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(95,0,76);
+    background-color: #ffffff;
+    border: transparent;
+    border-radius: 22px;
+    opacity: 1;
+    font-weight: 600;
+  }
+
+  
+  /*Navbar Styles End*/
+
+  .Vteam{
+    position:relative;
+    left:35%;  
+    margin-top:8vh;
+  }
+  .Vteam span{
+      font-size:3em;
+      color:white;
+  }
+  .head1{
+      width:100vw;
+      height:10vh;
+  }
+  .head1 span{
+      position: relative;
+      left:45%;
+      font-size:2em;
+      text-align:center;
+      color:white;
+  }
+  .category{
+      display:grid;
+      grid-gap:20px;
+      padding-top:10vh;
+      padding-left:15vw;
+      grid-template-columns:1fr 1fr 1fr;
+      grid-auto-rows:40vh;
+  }
+  .pic{
+      height:200px;
+      width:200px;
+      border-radius:50%;
+      background:red;
+  }
+  .info{
+     color:white;
+  }
+  .info .name{
+      padding:40px;
+      padding-left:80px;
+  }
+
+  @media only screen and (max-width: 600px)  {
+    .Vteam{
+        position:relative;
+        left:30%;  
+        margin-top:10vh;
+      }
+      .Vteam span{
+          font-size:3em;
+          color:white;
+      }
+    .category{
+        display:grid;
+        grid-gap:5px;
+        padding-top:10vh;
+        padding-left:35vh;
+        grid-template-columns:1fr;
+        grid-auto-rows:60vh;
+    }
+    .head1{
+        width:100vw;
+        height:6vh;
+        margin-top:10vh;
+    }
+    .pic{
+        height:300px;
+        width:300px;
+        border-radius:50%;
+        background:red;
+    }
+    .head1 span{
+        position: relative;
+        left:57%;
+        font-size:2em;
+        text-align:center;
+        color:white;
+    }
+    .info span{
+        font-size: 1.5em;
+        padding-left:30px;
+     }
+    .info .name{
+        padding:80px;
+        padding-left:120px;
+    }
+}
+
+@media only screen and (max-width: 540px)  {
+    .Vteam{
+        left:20%;  
+    }
+    .category{
+        padding-left:25vh;
+    }
+    .head1 span{
+        left:49%;
+    }
+}
+@media only screen and (max-width: 490px)  {
+    .Vteam{
+        left:16%;  
+    }
+    .category{
+        padding-left:23vh;
+    }
+    
+    .pic{
+        height:250px;
+        width:250px;
+        border-radius:50%;
+        background:red;
+    }
+    .head1 span{
+        left:46%;
+    }
+    .info span{
+        font-size: 1.5em;
+        padding-left:5px;
+     }
+    .info .name{
+        padding:60px;
+        padding-left:90px;
+    }
+}
+@media only screen and (max-width: 440px)  {
+    .Vteam{
+        left:22%;  
+    }
+    .Vteam span{
+        font-size:2em;
+        color:white;
+    }
+    .category{
+        padding-left:20vh;
+    }
+}
+@media only screen and (max-width: 440px)  {
+    .Vteam{
+        left:22%;  
+    }
+    .Vteam span{
+        font-size:2em;
+        color:white;
+    }
+    .category{
+        padding-left:20vh;
+        grid-auto-rows:50vh;
+    }
+    
+    .pic{
+        height:200px;
+        width:200px;
+        border-radius:50%;
+        background:red;
+    }
+    .head1 span{
+        left:43%;
+    }
+    .info span{
+        font-size: 1.3em;
+     }
+    .info .name{
+        padding:60px;
+        padding-left:80px;
+    }
+}
+@media only screen and (max-width: 330px)  {
+    .Vteam{
+        left:19%;  
+    }
+    .Vteam span{
+        font-size:1.75em;
+        color:white;
+    }
+    .category{
+        padding-left:14vh;
+    }
+    
+    .pic{
+        height:200px;
+        width:200px;
+        border-radius:50%;
+        background:red;
+    }
+    .head1 span{
+        font-size:1.5em;
+        left:45%;
+    }
+    .info span{
+        font-size: 1.3em;
+        padding-left:5px;
+     }
+    .info .name{
+        padding:60px;
+        padding-left:75px;
+    }
+}
